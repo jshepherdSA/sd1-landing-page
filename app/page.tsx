@@ -37,9 +37,10 @@ const quickLinks: {
   { label: "FAQs", href: "#faq", icon: MessageCircleQuestion },
 ];
 
-const stats = [
+const stats: { value: string; unit?: string; caption: string }[] = [
   {
     value: "1.2M",
+    unit: "gallons",
     caption:
       "of sewer overflows into Woolper Creek eliminated in a typical year",
   },
@@ -304,6 +305,11 @@ export default function Home() {
                   >
                     <span className="font-display text-4xl leading-none font-bold md:text-6xl">
                       {s.value}
+                      {s.unit && (
+                        <span className="ml-1.5 font-display text-xl font-medium lowercase md:ml-2 md:text-3xl">
+                          {s.unit}
+                        </span>
+                      )}
                     </span>
                     <span
                       aria-hidden
