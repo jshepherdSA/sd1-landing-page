@@ -149,15 +149,20 @@ export const faqs: FaqItem[] = [
         p: "Yes. This is public infrastructure designed to provide broader benefits across Boone County.",
       },
       {
-        p: "The project will address sanitary sewer overflows, improve system reliability and capacity, make better use of available treatment capacity at Western Regional and provide greater flexibility to serve currently unserved areas.",
+        label: "Fewer pump stations:",
+        p: "B2 eliminates the Bullittsville Pump Station and avoids the additional pumping and equalization facilities the other alternatives would have required.",
       },
       {
-        label: "Why B2 matters:",
-        p: "Its lower elevation means a larger area can potentially reach the gravity sewer without requiring additional pump stations.",
+        label: "More access to public sewer:",
+        p: "B2’s lower elevation means a larger area can potentially reach the gravity sewer, giving currently unserved areas a path to public sewer service as future needs arise.",
+      },
+      {
+        label: "Why that matters:",
+        p: "Residents who gain access will have the option to connect to the public sewer system and discontinue use of private septic systems. Future connections would still require appropriate planning and infrastructure.",
       },
       {
         label: "The community benefit:",
-        p: "More flexibility to meet future sewer needs with a system designed to minimize long-term pumping and operating costs.",
+        p: "Public sewer service available to more of Boone County, with less reliance on pump stations and the long-term costs that come with them.",
       },
     ],
   },

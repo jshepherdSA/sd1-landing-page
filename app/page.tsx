@@ -6,6 +6,7 @@ import {
   MapPinned,
   MessageCircleQuestion,
   Scale,
+  ShieldPlus,
   SquareChevronRight,
   TrendingDown,
   Wrench,
@@ -236,7 +237,7 @@ export default function Home() {
                 id="page-title"
                 className="mt-1 font-display text-3xl leading-[1.05] font-bold uppercase sm:text-4xl md:text-6xl"
               >
-                The Right Solution for the Long Term
+                The Solution for the Long Term
               </h1>
               <span
                 aria-hidden
@@ -276,8 +277,9 @@ export default function Home() {
                 Sanitation District No. 1 (SD1) is moving forward with a major
                 sewer improvement project in Central Boone County designed to
                 address recurring sanitary sewer overflows, improve the
-                reliability of the region’s wastewater system and meet the
-                community’s long-term needs.
+                reliability of the region’s wastewater system, expand public
+                sewer service to underserved areas and meet the community’s
+                long-term needs.
               </p>
               <p className="mt-5 leading-relaxed text-sd1-ink md:text-[17px]">
                 Planning for the project began several years ago as SD1
@@ -338,9 +340,47 @@ export default function Home() {
               while creating a system that is more reliable and less expensive
               to operate and maintain over time. It uses more gravity to move
               wastewater, eliminates the Bullittsville Pump Station and provides
-              more opportunities to extend sewer service without adding pump
-              stations.
+              more opportunities to extend sewer service while reducing the
+              number of pump stations and equalization tanks.
             </p>
+          </div>
+        </section>
+
+        {/* Public health band */}
+        <section
+          aria-labelledby="public-health"
+          className="bg-white px-5 py-16 md:py-20"
+        >
+          <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-[auto_1fr] md:gap-14">
+            <div className="flex flex-col items-center text-center md:w-[300px]">
+              <RingIcon icon={ShieldPlus} />
+              <h2
+                id="public-health"
+                className="mt-6 scroll-mt-28 font-display text-4xl leading-[1.05] font-bold tracking-wide text-sd1-navy uppercase md:text-5xl"
+              >
+                Protecting Public Health
+              </h2>
+              <Bar center />
+            </div>
+            <div className="space-y-5 leading-relaxed text-sd1-ink md:text-[17px]">
+              <p className="text-xl leading-relaxed font-medium text-sd1-navy md:text-[1.35rem]">
+                Public sewer systems are designed to protect public health by
+                conveying and treating wastewater.
+              </p>
+              <p>
+                The project will expand public sewer service to underserved
+                areas of Boone County. Residents along the corridor will have
+                the option to connect to the public sewer system and discontinue
+                use of private septic systems, which can contribute to
+                groundwater and surface water pollution when they fail or are
+                not properly maintained.
+              </p>
+              <p>
+                Once completed, the project is also designed to eliminate
+                approximately 1.2 million gallons of sanitary sewer overflows
+                into Woolper Creek in a typical year.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -358,13 +398,22 @@ export default function Home() {
                 typical year once completed.
               </p>
               <p>
-                It also addresses limitations in the existing sewer system and
-                directs wastewater toward available treatment capacity at
-                Western Regional. All three options could address the overflows.
-                SD1’s decision focused on what would not only reduce sewer
-                overflows, but provide the best long-term value for taxpayers,
-                and the greatest flexibility to extend sewer service across the
-                county.
+                It also addresses the limitations of the existing Bullittsville
+                and Taylorsport pump stations and force mains, which Boone
+                County identified as its highest-priority sanitary sewer need.
+              </p>
+              <p>
+                Rather than adding pump stations one after another as needs
+                arise—the pattern that left the Hebron KY 237 corridor with a
+                chain of interconnected pump stations, bottlenecks and ongoing
+                maintenance demands—B2 moves wastewater by gravity and
+                eliminates the Bullittsville Pump Station.
+              </p>
+              <p>
+                All three options could address the overflows. SD1’s decision
+                focused on what would not only reduce sewer overflows, but
+                provide the best long-term value for ratepayers, and the
+                greatest flexibility to extend sewer service across the county.
               </p>
             </InfoCard>
             <InfoCard
@@ -375,7 +424,7 @@ export default function Home() {
               <p>
                 Gravity sewers let wastewater flow downhill naturally. Pump
                 stations use electricity and mechanical equipment, which require
-                regular maintenance and can fail.
+                regular maintenance and are more prone to fail.
               </p>
               <p>
                 B2’s lower-elevation sewer allows more surrounding areas to
@@ -387,7 +436,7 @@ export default function Home() {
                 That means fewer facilities for SD1 customers to pay to operate,
                 maintain and replace over time. B2 will still use the Central
                 Boone County Pump Station. The result is lower long-term costs
-                for taxpayers and more reliable service.
+                for ratepayers and more reliable service.
               </p>
             </InfoCard>
           </div>
@@ -425,8 +474,8 @@ export default function Home() {
             >
               <p>
                 Sewer costs continue long after construction. Pump stations
-                require electricity, inspections, repairs and eventual equipment
-                replacement.
+                require electricity, frequent inspections, repairs and eventual
+                equipment replacement.
               </p>
               <p>
                 B2 reduces those ongoing responsibilities by eliminating the
@@ -453,10 +502,14 @@ export default function Home() {
                 areas to potentially connect by gravity as future needs arise.
               </p>
               <p>
-                This helps avoid repeatedly adding individual pump stations—a
-                pattern that created bottlenecks and ongoing maintenance demands
-                along the Hebron KY 237 corridor. Future connections would still
-                require additional planning and infrastructure.
+                For residents in those areas, that means the option to connect
+                to the public sewer system and discontinue use of private septic
+                systems.
+              </p>
+              <p>
+                Extending service by gravity also helps avoid repeatedly adding
+                individual pump stations as new needs arise. Future connections
+                would still require additional planning and infrastructure.
               </p>
             </InfoCard>
           </div>
@@ -481,13 +534,14 @@ export default function Home() {
               <p className="text-lg leading-relaxed text-sd1-ink">
                 All three options address the sewer overflow problem. However,
                 B2 also creates a lower-elevation gravity system that can
-                potentially serve more areas without adding pump stations.
-                Compared with A3 and B3, it eliminates the Bullittsville Pump
-                Station and avoids additional pumping and storage facilities,
-                reducing the equipment SD1 must operate and maintain over time.
-                The project will improve sewer system reliability and provide
-                flexibility to meet future needs while helping control long-term
-                costs for customers.
+                potentially bring public sewer service to more areas by gravity
+                rather than through additional pump stations. Compared with A3
+                and B3, it eliminates the Bullittsville Pump Station and avoids
+                additional pumping and storage facilities, reducing the
+                equipment SD1 must operate and maintain over time. The project
+                will help protect public health, improve sewer system
+                reliability and provide flexibility to meet future needs while
+                helping control long-term costs for customers.
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | Sanitation District No. 1",
   },
   description:
-    "Why SD1 selected Alternative B2 for the Central Boone County sewer project: fewer overflows, more gravity sewer, the Bullittsville Pump Station eliminated and lower long-term costs.",
+    "Why SD1 selected Alternative B2 for the Central Boone County sewer project: fewer overflows, expanded public sewer service, the Bullittsville Pump Station eliminated and lower long-term costs.",
   openGraph: {
     type: "website",
     siteName: "Sanitation District No. 1 of Northern Kentucky",
